@@ -1,0 +1,12 @@
+{
+  "name": "filament-mineral-theme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node bin/build.mjs",
+    "contrast": "node bin/contrast.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

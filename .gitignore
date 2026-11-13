@@ -1,0 +1,11 @@
+/vendor/
+/node_modules/
+/build/
+/demo/app/
+/.phpunit.cache/
+/.phpstan-cache/
+/.pest/
+/auth.json
+/.env
+
+/art/*.html

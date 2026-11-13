@@ -1,0 +1,48 @@
+{
+  "name": "serhii-antoniuk/filament-mineral-theme",
+  "description": "A considered theme for Filament panels.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "filament/filament": "^4.0 || ^5.0",
+    "illuminate/contracts": "^12.0",
+    "spatie/laravel-package-tools": "^1.16"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^10.0",
+    "pestphp/pest": "^3.0",
+    "pestphp/pest-plugin-laravel": "^3.0",
+    "laravel/pint": "^1.0",
+    "larastan/larastan": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SerhiiAntoniuk\\Mineral\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SerhiiAntoniuk\\Mineral\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SerhiiAntoniuk\\Mineral\\MineralThemeServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "pest",
+    "format": "pint"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    },
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

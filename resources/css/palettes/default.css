@@ -1,0 +1,18 @@
+body:has(> [data-mineral-theme="default"]) {
+  --mineral-background: #f5f7f4;
+  --mineral-surface: #ffffff;
+  --mineral-text: #17251f;
+  --mineral-muted: #526159;
+  --mineral-border: #d9e1dc;
+  --mineral-accent: #315b50;
+  --mineral-on-accent: #ffffff;
+}
+html.dark body:has(> [data-mineral-theme="default"]) {
+  --mineral-background: #10231e;
+  --mineral-surface: #232c28;
+  --mineral-text: #f0f5f2;
+  --mineral-muted: #b1bfb7;
+  --mineral-border: #47564e;
+  --mineral-accent: #96d4bd;
+  --mineral-on-accent: #14241d;
+}
